@@ -102,3 +102,20 @@ print(actor_stats)
 ## Where to Find the Actor Slug?
 
 ![Actor Slug](./images/actor_slug.png)
+
+
+## Using this API to Generate Your Custom Actor README Badges
+
+In the example below, this API is used to generate a custom Success Rate badge for my Apify Actor.
+
+1. My Actor's slug is `coding-doctor-omar/reddit-scraper-pro`.
+2. The GET request URL would be (url encoded): `https://apify-actor-stats.vercel.app/api/v1/actor-stats?actor_slug=coding-doctor-omar%2Freddit-scraper-pro`.
+3. The shields.io badge url would be (url encoded): `https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapify-actor-stats.vercel.app%2Fapi%2Fv1%2Factor-stats%3Factor_slug%3Dcoding-doctor-omar%252Freddit-scraper-pro&query=%24.successRate&suffix=%25&label=Success%20Rate&color=green`
+
+In this example, I am setting the label text to be `Success Rate`, the color of the right part to be `green`, and the suffix to be a `%` symbol.
+
+The end result looks like this:
+
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapify-actor-stats.vercel.app%2Fapi%2Fv1%2Factor-stats%3Factor_slug%3Dcoding-doctor-omar%252Freddit-scraper-pro&query=%24.successRate&suffix=%25&label=Success%20Rate&color=green">
+
+For more information, you can read the [shields.io documentation](https://shields.io/badges/dynamic-json-badge).
