@@ -148,6 +148,7 @@ In this example, I am setting the label text to be `Success Rate`, the color of 
 
 The end result looks like this:
 
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapify-actor-stats.vercel.app%2Fapi%2Fv1%2Factor-stats%3Factor_slug%3Dcoding-doctor-omar%252Freddit-scraper-pro&query=%24.successRate&suffix=%25&label=Success%20Rate&color=green">
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapify-actor-stats.vercel.app%2Fapi%2Fv1%2Factor-stats%3Factor_slug%3Dcoding-doctor-omar%2Freddit-scraper-pro&query=%24.actorNonFailureRate&suffix=%25&label=Success%20Rate&labelColor=gray&color=green
+">
 
 For more information, you can read the [shields.io documentation](https://shields.io/badges/dynamic-json-badge).
