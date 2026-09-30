@@ -58,44 +58,76 @@ print(actor_stats)
 
 ```json
 {
-  "actorReviewCount": 1,
-  "actorReviewRating": 5,
-  "badge": null,
-  "bookmarkCount": 0,
+  "actorNonFailureRate": 97.2,
+  "actorPermissionLevel": "LIMITED_PERMISSIONS",
+  "actorSuccessRate": 95.5,
   "categories": [],
-  "currentPricingInfo": {
-    "pricingModel": "FREE"
+  "createdAt": "2026-08-30T06:31:25.902Z",
+  "defaultRunOptions": {
+    "build": "latest",
+    "maxItems": null,
+    "maxTotalChargeUsd": 0,
+    "memoryMbytes": 4096,
+    "timeoutSecs": 0
   },
-  "description": "(30+fields) A powerful, FREE Reddit scraper for posts and comments with detailed metrics. No API key required. Scrape subreddits, profiles, and specific posts, or search Reddit site-wide by keywords or domains. Collect rich, structured data including authors, scores, timestamps, flairs, and more.",
-  "isWhiteListedForAgenticPayments": false,
+  "deploymentKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWiganze5Ym+cU4s8tnN37D0qoUExMe/2G7D7niN4GZGmxHHFpzjUb8XojA/wjYiOV1+qnk5194t2SlZZn0mmjdQlzi+neRDnWUDtBQTp37fl3MPSHVC3mRultKMSKWOH+giC089oK4D9IfedTroe0TN7vs61A1IDvc4Cj5kbT+GMNaNN+H331GTTmIu1Bfe5ONdsYPLBEh+YIRwEZCx7SPh41yCyJ8VAj0U6AvODMNdbtyd40F7BP9zsU2llZQutlFr8lZg6FD07AcorPClP28srEkwuyPHsXaHk0drYZbH94riSfc09XqzyMVWf8ISex1yeQQpP1zQ0QJZ7oo3vZ \n",
+  "description": "(30+ fields) A powerful, FREE Reddit scraper for posts and comments with detailed metrics. No API key required. Scrape subreddits, profiles, and specific posts, or search Reddit site-wide by keywords or domains. Collect rich, structured data including authors, scores, timestamps, flairs, and more.",
+  "exampleRunInput": {
+    "body": "{ \"helloWorld\": 123 }",
+    "contentType": "application/json; charset=utf-8"
+  },
+  "hasNoDataset": false,
+  "id": "mw5JvRF7kSxjfNqdu",
+  "isCritical": false,
+  "isDeprecated": false,
+  "isGeneric": false,
+  "isPublic": true,
+  "isSourceCodeHidden": true,
+  "modifiedAt": "2026-09-27T09:25:56.908Z",
   "name": "Reddit-Scraper-Pro",
   "notice": "NONE",
-  "objectID": "mw5JvRF7kSxjfNqdu",
   "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/9ZFcPlTHP3OBsxE7I-actor-mw5JvRF7kSxjfNqdu-G2h1xdIb3w-reddit_scraper_pro.png",
+  "readmeSummary": "## Reddit Scraper Pro\n\nA Reddit web scraper that extracts structured posts and comments data from subreddits, user profiles, and individual post URLs, and performs site-wide searches by keywords or referenced domains. Operates via web scraping (no Reddit API key required) and supports Standard, Keyword Search, and Domain Search modes, including advanced keyword expressions. Captures hierarchical comment threads with configurable depth and per-post limits and extracts rich metadata and engagement signals such as authors, timestamps, scores, upvote ratios, flairs, post types (text/image/video/gallery/link/poll), crosspost relationships, media URLs (images, galleries, videos, thumbnails), URLs, subreddit context, and other derived fields (30+ structured fields) for analysis, monitoring, and content collection workflows.\n\n## Use cases\n\n- Scrape posts and comments from specified subreddits.\n- Scrape posts and comments from Reddit user profiles.\n- Scrape specific individual post URLs.\n- Perform site-wide keyword search to find posts and comments containing or excluding specified terms, including advanced search expressions.\n- Perform site-wide domain search to find posts and comments that reference one or more domains.\n- Collect hierarchical comment threads with configurable depth and limits per post.\n- Extract media links and engagement metadata (images, galleries, videos, thumbnails, scores, upvote ratios, crosspost info, timestamps, flairs).",
+  "seoDescription": "[30+ Fields Per Item] Scrape Reddit posts and comments from subreddits, profiles, and/or your list of post URLs. Additionally, scrape posts based on keywords or domains! FREE & No API Key Required.",
+  "seoTitle": "Reddit Scraper Pro | FREE 🔥 | No API Key Required",
+  "standbyUrl": null,
   "stats": {
     "actorReviewCount": 0,
     "actorReviewRating": 0,
     "bookmarkCount": 0,
-    "lastRunStartedAt": "2026-09-19T10:52:34.876Z",
+    "lastRunStartedAt": "2026-09-30T00:57:18.585Z",
     "publicActorRunStats30Days": {
-      "ABORTED": 7,
-      "FAILED": 13,
-      "SUCCEEDED": 303,
-      "TIMED-OUT": 3,
-      "TOTAL": 326
+      "ABORTED": 10,
+      "FAILED": 19,
+      "SUCCEEDED": 659,
+      "TIMED-OUT": 2,
+      "TOTAL": 690
     },
     "totalBuilds": 39,
-    "totalRuns": 377,
-    "totalUsers": 43,
-    "totalUsers30Days": 21,
-    "totalUsers7Days": 14,
-    "totalUsers90Days": 21
+    "totalRuns": 746,
+    "totalUsers": 71,
+    "totalUsers30Days": 31,
+    "totalUsers7Days": 8,
+    "totalUsers90Days": 31
   },
-  "successRate": 92.9,
+  "taggedBuilds": {
+    "latest": {
+      "buildId": "gIz7NCFBrV4WRWbEX",
+      "buildNumber": "0.0.39",
+      "buildNumberInt": 39,
+      "finishedAt": "2026-09-15T07:42:39.181Z"
+    }
+  },
   "title": "Reddit Scraper Pro | FREE 🔥 | No API Key Required",
-  "userFullName": "Coding Doctor Omar",
-  "userPictureUrl": "https://images.apifyusercontent.com/8AkahZMXUZ0taLaTtZGgfXYIkmsY3nFvOfaEj1CkND8/rs:fill:32:32/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vOVpGY1BsVEhQM09Cc3hFN0ktcHJvZmlsZS1kN1pvWDU4b3dKLVByb2ZpbGVfTm9fU21pbGVfJTI4MyUyOS5wbmc.png",
-  "username": "coding-doctor-omar"
+  "userId": "9ZFcPlTHP3OBsxE7I",
+  "username": "coding-doctor-omar",
+  "versions": [
+    {
+      "buildTag": "latest",
+      "sourceType": "GIT_REPO",
+      "versionNumber": "0.0"
+    }
+  ]
 }
 ```
 
@@ -110,7 +142,7 @@ In the example below, this API is used to generate a custom Success Rate badge f
 
 1. My Actor's slug is `coding-doctor-omar/reddit-scraper-pro`.
 2. The GET request URL would be (url encoded): `https://apify-actor-stats.vercel.app/api/v1/actor-stats?actor_slug=coding-doctor-omar%2Freddit-scraper-pro`.
-3. The shields.io badge url would be (url encoded): `https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapify-actor-stats.vercel.app%2Fapi%2Fv1%2Factor-stats%3Factor_slug%3Dcoding-doctor-omar%252Freddit-scraper-pro&query=%24.successRate&suffix=%25&label=Success%20Rate&color=green`
+3. The shields.io badge url would be (url encoded): `https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapify-actor-stats.vercel.app%2Fapi%2Fv1%2Factor-stats%3Factor_slug%3Dcoding-doctor-omar%2Freddit-scraper-pro&query=%24.actorNonFailureRate&suffix=%25&label=Success%20Rate&labelColor=gray&color=green`
 
 In this example, I am setting the label text to be `Success Rate`, the color of the right part to be `green`, and the suffix to be a `%` symbol.
 
